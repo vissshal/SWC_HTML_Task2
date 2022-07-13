@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Task 2</title>
+  </head>
+  <!--  -->
+  <body>
+    <!-- Navigation Bar -->
+
+    <nav class="flex justify-between nav my-0 px-12 py-4 items-center">
+      <div class="logo-header flex flex-row items-center">
+        <img src="./logo.jpg" alt="logo" class="h-12 w-12" />
+        <span class="font-extrabold pl-4 text-2xl">Movies</span>
+      </div>
+      <div class="search-bar box-border flex flex-row">
+        <form action="" id="form">
+          <input
+            type="text"
+            placeholder="   Quick Search"
+            id="search"
+            class="search px-0.5 py-0.5 box-border"
+          />
+
+          <button type="submit" id="search-btn">
+            <img src="./icons/search.svg" alt="searchicon" />
+          </button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Left Pane  -->
+    <div class="flex flex-row">
+      <div class="w-1/5 font-semibold left-pane">
+        <div>
+          <input
+            type="text"
+            placeholder="  Search Results"
+            class="box-border px-2 py-1 ml-12 mt-12 w-48"
+          />
+        </div>
+        <div class="ml-16 mt-6">All Team</div>
+        <div class="ml-16 mt-6">Core</div>
+        <div class="ml-16 mt-6">Developers</div>
+        <div class="ml-16 mt-6">Designers</div>
+        <div class="ml-16 mt-6">Mentors</div>
+      </div>
+
+      <!-- Right Pane -->
+      <main id="right-pane" class="flex flex-row flex-wrap"></main>
+    </div>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </body>
+</html>

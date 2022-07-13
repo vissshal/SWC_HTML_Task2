@@ -1,0 +1,22 @@
+body {
+  background-color: #f5f7f9;
+}
+.nav {
+  background-color: #ffffff;
+}
+.search-bar input {
+  background-color: #f5f7f9;
+}
+.left-pane {
+  background-color: #d4dadf;
+  height: auto;
+}
+.left-pane input {
+  background-color: #ffffff;
+}
+.ffffff {
+  background-color: #ffffff;
+}
+#movie-name {
+  font-weight: 800;
+}
